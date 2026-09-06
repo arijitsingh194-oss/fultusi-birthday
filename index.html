@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>For Fultusi 🌸</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#090a12;color:#fff}
+body{overflow-x:hidden}
+.page{min-height:100vh;display:none;position:relative;padding:28px 20px 36px;align-items:center;justify-content:center}
+.page.active{display:flex;animation:fade .65s ease}
+.card{width:min(520px,100%);text-align:center}
+h1,h2,p{margin:0}
+h1{font-size:clamp(32px,9vw,56px);line-height:1.05}
+h2{font-size:clamp(25px,7vw,38px);margin-bottom:14px}
+p{font-size:17px;line-height:1.65;color:#e8e8ef}
+button{border:0;border-radius:999px;padding:13px 24px;margin-top:24px;font-size:16px;font-weight:700;cursor:pointer}
+.primary{background:#fff;color:#111}
+.ghost{background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.2)}
+.tag{display:inline-block;padding:7px 12px;border-radius:999px;background:rgba(255,255,255,.09);font-size:13px;margin-bottom:18px}
+img{width:100%;display:block;object-fit:cover;border-radius:22px;box-shadow:0 18px 50px rgba(0,0,0,.35)}
+.hero{max-height:58vh}
+.small{font-size:14px;color:#aaa;margin-top:10px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
+.report{margin:18px 0;text-align:left;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);border-radius:20px;padding:16px}
+.row{display:flex;justify-content:space-between;gap:15px;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.08);font-size:15px}
+.row:last-child{border-bottom:0}
+.value{font-weight:800;text-align:right}
+.pink{background:radial-gradient(circle at 50% 20%,#43213a 0,#151321 45%,#090a12 100%)}
+.blue{background:radial-gradient(circle at 50% 20%,#173e72 0,#0b1324 48%,#090a12 100%)}
+.sun{background:radial-gradient(circle at 50% 15%,#7b4935 0,#211827 45%,#090a12 100%)}
+.final{background:radial-gradient(circle at 50% 30%,#6b2948 0,#1c1020 45%,#090a12 100%)}
+.heart{position:absolute;opacity:.18;font-size:34px;animation:float 5s ease-in-out infinite}
+.h1{left:10%;top:15%}.h2{right:12%;top:30%;animation-delay:1s}.h3{left:18%;bottom:15%;animation-delay:2s}
+.note{margin-top:20px;padding:15px;border-left:3px solid #fff;text-align:left;background:rgba(255,255,255,.06);border-radius:0 14px 14px 0}
+@keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes float{0%,100%{transform:translateY(0) rotate(-8deg)}50%{transform:translateY(-18px) rotate(8deg)}}
+@media(max-width:390px){.page{padding:22px 16px}.grid{gap:8px}.report{padding:13px}}
+</style>
+</head>
+<body>
+
+<section class="page active pink" id="p1">
+  <div class="heart h1">♥</div><div class="heart h2">♥</div><div class="heart h3">♥</div>
+  <div class="card">
+    <span class="tag">PRIVATE BIRTHDAY PROTOCOL</span>
+    <h1>FULTUSI<br><span style="font-size:.58em">EXE</span></h1>
+    <p style="margin-top:18px">Initializing...<br>Searching for someone special...</p>
+    <p style="margin-top:12px"><b>Tanushree detected.</b><br>Codename: Fultusi 🌸<br>Birthday protocol: READY 🎂</p>
+    <button class="primary" onclick="next()">TAP TO BEGIN</button>
+  </div>
+</section>
+
+<section class="page blue" id="p2">
+  <div class="card">
+    <span class="tag">🩺 FULTUSI'S MEDICAL REPORT</span>
+    <img class="hero" src="images/nurse.jpg" alt="Tanushree">
+    <div class="report">
+      <div class="row"><span>Profession</span><span class="value">Nurse 👩‍⚕️</span></div>
+      <div class="row"><span>Cooking skill</span><span class="value">Chef Level 👩‍🍳</span></div>
+      <div class="row"><span>Kindness</span><span class="value">∞ ❤️</span></div>
+      <div class="row"><span>Simplicity</span><span class="value">100% 🌸</span></div>
+      <div class="row"><span>Brain with me</span><span class="value">404 — Not Found 😂</span></div>
+    </div>
+    <p><b>Final diagnosis:</b><br>Simple, precious and dangerously special. ❤️</p>
+    <div class="grid">
+      <img src="images/casual.jpg" alt="Tanushree outdoors">
+      <img src="images/intro.jpg" alt="Tanushree portrait">
+    </div>
+    <button class="primary" onclick="next()">NEXT →</button>
+  </div>
+</section>
+
+<section class="page sun" id="p3">
+  <div class="card">
+    <span class="tag">🚉 SOMEWHERE IT STARTED</span>
+    <h2>It started somewhere ordinary...</h2>
+    <p>Dasnagar Railway Station 🚉</p>
+    <div class="note">
+      You were just a friend's friend that day. I had no idea that this simple meeting would eventually give me some of my favourite memories.
+    </div>
+    <img style="margin-top:18px" src="images/sunset.jpg" alt="Tanushree by the water">
+    <p style="margin-top:18px">🏍️ That bike ride...<br>🍲 You cooking for me...<br>👀 And quietly watching me eat...</p>
+    <p style="margin-top:12px"><b>Some moments don't need anything extraordinary. They're priceless simply because it's you.</b> ❤️</p>
+    <button class="primary" onclick="next()">ONE LAST THING →</button>
+  </div>
+</section>
+
+<section class="page final" id="p4">
+  <div class="heart h1">♥</div><div class="heart h2">♥</div><div class="heart h3">♥</div>
+  <div class="card">
+    <span class="tag">FOR FULTUSI 🌸</span>
+    <img class="hero" src="images/final.jpg" alt="A special illustration of the two of you">
+    <h2 style="margin-top:22px">Happy Birthday, Fultusi 🎂❤️</h2>
+    <p>Maybe you're not perfect.<br>Maybe I'm not perfect either.</p>
+    <p style="margin-top:12px"><b>But somehow, together we complete each other.</b> ❤️</p>
+    <p style="margin-top:18px">Sometimes you keep looking for something valuable in the most expensive and extraordinary places... only to find it hidden in someone's <b>simplicity.</b></p>
+    <p style="margin-top:16px">And I think that's what I found in you, Fultusi.</p>
+    <p style="margin-top:12px"><b>Something simple.<br>Something precious.<br>Something I never want to lose.</b> ❤️</p>
+    <p style="margin-top:20px;font-size:18px">Happy Birthday, my precious human. 🫶</p>
+  </div>
+</section>
+
+<script>
+let current=1;
+function next(){
+  document.getElementById('p'+current).classList.remove('active');
+  current=Math.min(4,current+1);
+  document.getElementById('p'+current).classList.add('active');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+</script>
+</body>
+</html>
