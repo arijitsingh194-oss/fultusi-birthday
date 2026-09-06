@@ -11,7 +11,7 @@ The website is intentionally simple:
 
 Selected photos:
 - intro.jpg
-- nurse.jpg (cropped to 5:4)
+- nurse.jpg
 - casual.jpg
 - sunset.jpg
 - final.jpg
